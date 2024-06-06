@@ -39,11 +39,11 @@ export default function AboutMe() {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hi, I'm Umesh Kaushik, a dedicated Software Engineer with a
+                Hi, I&apos;m Umesh Kaushik, a dedicated Software Engineer with a
                 passion for creating impactful and innovative solutions. My
                 journey in technology began with a strong academic foundation at
                 Maharaja Agrasen Institute of Technology, where I graduated with
-                a Bachelor's degree in Technology, achieving a commendable GPA
+                a Bachelor&apos;s degree in Technology, achieving a commendable GPA
                 of 9.00/10.00.
               </span>
             </div>
@@ -105,7 +105,7 @@ export default function AboutMe() {
             <div
               className="group-hover:translate-x-3 group-hover:translate-y-3
                duration-300 absolute w-5/6 h-5/6 border-2 border-red-700 translate-x-5 
-               translate-y-5 rounded-lg"
+               translate-y-5 rounded-l"
             ></div>
 
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">

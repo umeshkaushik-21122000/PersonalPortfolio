@@ -1,6 +1,6 @@
 import React from "react";
 type Props = {
-  className;
+  className:any;
 };
 export default function Loader(props:Props) {
   return (

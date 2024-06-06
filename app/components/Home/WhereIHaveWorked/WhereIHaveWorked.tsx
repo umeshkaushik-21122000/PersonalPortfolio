@@ -59,7 +59,7 @@ export default function WhereIHaveWorked() {
   );
 }
 
-const CompaniesBar = props => {
+const CompaniesBar = (props:any) => {
   const [barPosition, setBarPosition] = React.useState<Number>(-8); // Green bar position by the default it's -20px
   const [barAbovePosition, setBarAbovePosition] = React.useState<Number>(0);
   const [companyNameBackgroundColorGreen, setCompanyNameBackgroundColorGreen] = React.useState<boolean[]>([
@@ -71,7 +71,7 @@ const CompaniesBar = props => {
     false,
     false,
   ]);
-  const CompanyButton = props => {
+  const CompanyButton = (props:any) => {
     return (
       <button
         onClick={() => {
@@ -108,7 +108,7 @@ const CompaniesBar = props => {
       >
         {/* // ? animated left bar */}
         <motion.div
-          animate={{ y: barPosition }}
+          animate={true}
           // ref={barRef}
           className={`absolute w-10 h-0.5 md:w-0.5 md:h-12 rounded bg-AAsecondary `}
         ></motion.div>
@@ -181,7 +181,7 @@ const CompaniesBar = props => {
           />
         </div>
         <div className="block md:hidden h-0.5 rounded bg-gray-500">
-          <motion.div animate={{ x: barAbovePosition }} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
+          <motion.div animate={true} className="w-[128px] h-0.5 rounded bg-AAsecondary"></motion.div>
         </div>
       </div>
     </div>
