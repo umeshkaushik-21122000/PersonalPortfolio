@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import {motion} from "framer-motion";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe() {
   const technologies = [
@@ -7,9 +8,11 @@ export default function AboutMe() {
     ["Node.js", "TypeScript", "Framer Motion","Express.js","Redis","MongoDb"],
   ];
   return (
-    <div
+    <motion.div
+      initial={{opacity:0,y:"-100px"}}
+      animate={{opacity:1,y:"0px"}}
+      transition={{duration:4}}
       id="aboutSection"
-      data-aos="fade-up"
       className="snap-start flex flex-col  items-center py-20 bg-AAprimary"
     >
       <div
@@ -134,6 +137,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

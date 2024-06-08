@@ -5,6 +5,7 @@ import  SocialMediaAround from "@/app/components/Home/SocialMediaAround/SocialMe
 import AboutMe from "@/app/components/Home/AboutMe/AboutMe";
 import GetInTouch from "@/app/components/Home/GetInTouch/GetInTouch";
 import Footer from "@/app/components/Footer/Footer";
+import WhereIHaveWorked from "@/app/components/Home/WhereIHaveWorked/WhereIHaveWorked";
 export default function Home() {
 
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           <MyName  />
            <SocialMediaAround  />
            <AboutMe  /> 
-          {/* <WhereIHaveWorked /> */}
+          <WhereIHaveWorked />
            {/* <SomethingIveBuilt />  */}
            <GetInTouch /> 
             <Footer githubUrl={"https://github.com/umeshkaushik-21122000"} hideSocialsInDesktop={true}   /> 
