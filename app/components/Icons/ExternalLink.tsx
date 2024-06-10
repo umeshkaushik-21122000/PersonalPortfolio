@@ -1,8 +1,9 @@
-import {NextRouter} from 'next/router';
-const ExternalLink = (props: { router: NextRouter; url: string }) => {
+import Link from "next/link";
+
+const ExternalLink = ({url}: any) => {
     return (
+     <Link href={url}>
       <svg
-        onClick={() => props.router.push(props.url)}
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         viewBox="0 0 24 24"
@@ -11,7 +12,7 @@ const ExternalLink = (props: { router: NextRouter; url: string }) => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="w-6 h-6 text-gray-300 hover:text-red-700 hover:cursor-pointer
+        className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer
     transition ease-in-out delay-50 hover:-translate-y-1 
     hover:scale-110 duration-200"
       >
@@ -20,6 +21,7 @@ const ExternalLink = (props: { router: NextRouter; url: string }) => {
         <polyline points="15 3 21 3 21 9"></polyline>
         <line x1="10" y1="14" x2="21" y2="3"></line>
       </svg>
+      </Link> 
     );
   };
 export default ExternalLink;

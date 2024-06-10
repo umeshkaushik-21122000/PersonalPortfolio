@@ -9,15 +9,15 @@ export default function AboutMe() {
   ];
   return (
     <motion.div
-      initial={{opacity:0,y:"-100px"}}
+      initial={{opacity:0,y:"-80px"}}
       animate={{opacity:1,y:"0px"}}
       transition={{duration:4}}
       id="aboutSection"
-      className="snap-start flex flex-col  items-center py-20 bg-AAprimary"
+      className="snap-start flex flex-col  items-center py-20"
     >
       <div
         className="flex flex-col space-y-8 px-4 sm:px-0 w-full sm:w-[500px] 
-        md:w-[700px] lg:w-[900px] "
+        md:w-[700px] lg:w-[900px]"
       >
         <div className="flex flex-row items-center ">
           <div className="flex flex-row  items-center mr-4">
@@ -114,7 +114,7 @@ export default function AboutMe() {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0  opacity-10 duration-300 rounded overflow-hidden"></div>
               <Image
-                src={"/img/portfolio-portrait-3.png"}
+                src={"/img/umeshimg.jpg"}
                 className={"object-cover rounded-lg h-full w-full"}
                 alt="My Image Not Found"
                 height={200}
@@ -126,7 +126,7 @@ export default function AboutMe() {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 "></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Image
-                src={"/img/portfolio-portrait-3.png"}
+                src={"/img/umeshimg.jpg"}
                 className={"object-cover rounded-lg h-full w-full"}
                 alt="My Image Not Found"
                 height={200}
