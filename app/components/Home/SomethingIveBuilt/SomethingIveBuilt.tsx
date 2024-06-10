@@ -93,7 +93,7 @@ const projectData = [
     title: "Uniqode",
     details: (
       <p className="text-gray-300 md:text-gray-400">
-        Integrated the <span className="text-red-700"> Stripe payment gateway </span> on the company's website,
+        Integrated the <span className="text-red-700"> Stripe payment gateway </span> on the company&apos;s website,
         developed the pricing page for <span className="text-red-700"> QR </span> and <span className="text-red-700">DBC</span>, and incorporated user
         authentication and plan upgrade functionalities to streamline the
         purchase process and drive <span className="text-red-700"> revenue growth directly</span>.
