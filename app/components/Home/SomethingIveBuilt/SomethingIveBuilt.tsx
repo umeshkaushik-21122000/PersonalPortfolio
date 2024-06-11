@@ -48,6 +48,7 @@ export default function SomethingIveBuilt() {
             index: number
           ) => (
             <ProjectCard
+                key={index}
               heading={heading}
               title={title}
               details={details}
