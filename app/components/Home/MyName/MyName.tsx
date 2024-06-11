@@ -22,8 +22,8 @@ export default function MyName() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay:  1.2, duration: 0.2 },
-          y: { delay:1.2, duration:  0.2 },
+          opacity: { delay:  1.4, duration: 0.2 },
+          y: { delay:1.4, duration:  0.2 },
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
@@ -33,8 +33,8 @@ export default function MyName() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay: 1.4, duration: 0.2 },
-          y: { delay:1.4, duration: 0.2 },
+          opacity: { delay: 1.8, duration: 0.2 },
+          y: { delay:1.8, duration: 0.2 },
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
@@ -45,8 +45,8 @@ export default function MyName() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay:  1.6, duration:  0.2 },
-          y: { delay:  1.6, duration:  0.2 },
+          opacity: { delay:  2, duration:  0.2 },
+          y: { delay:  2, duration:  0.2 },
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
@@ -62,8 +62,8 @@ export default function MyName() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
-          opacity: { delay:  1.8, duration:  0.2 },
-          y: { delay:  1.8, duration:  0.2 },
+          opacity: { delay:  2.4, duration:  0.5 },
+          y: { delay:  2.4, duration:  0.5 },
         }}
         className="mt-12"
       >

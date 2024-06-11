@@ -10,7 +10,7 @@ export default function SomethingIveBuilt() {
   return (
     <div
       id="SomethingIveBuiltSection"
-      className="hidden lg:flex lg:flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
+      className=" lg:flex lg:flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
      2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
     >
       {/* // ? Title  */}
@@ -126,15 +126,15 @@ const ProjectCard = ({
   isRight,
 }: ProjectCardProps) => {
   return (
-    <div className="relative grid grid-cols-12 gap-4">
+    <div className=" py-5 relative xl:grid xl:grid-cols-12 gap-4">
       <div
         className={`relative z-10 ${
-          isRight ? " col-start-1 col-end-8" : "col-start-5 col-end-12"
+          isRight ? "xl:col-start-1 xl:col-end-8" : "xl:col-start-5 xl:col-end-12"
         }`}
       >
         <Image
           src={imgSrc}
-          className="w-full h-auto"
+          className="w-full h-auto opacity-35 xl:opacity-90"
           alt="Project image"
           height={200}
           layout="responsive"
@@ -142,18 +142,18 @@ const ProjectCard = ({
         />
       </div>
       <div
-        className={`absolute  z-30 opacity-90 inset-0 flex flex-col justify-center ${
+        className={`absolute ps-6 z-30  inset-0 flex flex-col justify-center ${
           isRight
-            ? "text-end col-start-7 col-end-12"
-            : "text-start col-start-1 col-end-6"
-        }`}
+            ? "xl:text-end xl:col-start-6 xl:col-end-12"
+            : "text-start xl:col-start-1 xl:col-end-6"
+        } text-xs xl:text-base`}
       >
         <span className="text-red-700 text-base font-semibold">{heading}</span>
         <span className="md:text-gray-200 font-bold text-xl hover:cursor-pointer">
           {title}
         </span>
-        <div className="rounded-md py-6 md:p-6 bg-gray-900 z-20">{details}</div>
-        <div className={`flex ${isRight?"justify-end":"justify-start"} mt-4`}>
+        <div className="rounded-md py-6 md:p-6  xl:opacity-90 xl:bg-gray-900 z-20">{details}</div>
+        <div className={`flex ${isRight?"xl:justify-end":"justify-start"} mt-4`}>
           <ExternalLink url={links[0]} />{" "}
         </div>
       </div>
