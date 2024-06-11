@@ -101,7 +101,7 @@ const projectData = [
     ),
     links: ["https://www.uniqode.com/pricing"],
     imgSrc: "/img/project2.png",
-    isRight: false,
+    isRight: false, 
   },
 ];
 
