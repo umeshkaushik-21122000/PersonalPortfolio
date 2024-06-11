@@ -46,7 +46,7 @@ export default function AboutMe() {
                 passion for creating impactful and innovative solutions. My
                 journey in technology began with a strong academic foundation at
                 Maharaja Agrasen Institute of Technology, where I graduated with
-                a Bachelor&apos;s degree in Technology, achieving a commendable GPA
+                a Bachelor&apos;s degree in Information Technology, achieving a commendable GPA
                 of 9.00/10.00.
               </span>
             </div>
