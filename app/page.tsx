@@ -8,6 +8,7 @@ import Footer from "@/app/components/Footer/Footer";
 import WhereIHaveWorked from "@/app/components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomeThingIveBuilt from '@/app/components/Home/SomethingIveBuilt/SomethingIveBuilt';
 import { useEffect, useState } from "react";
+import Projects from "@/app/components/Projects/Projects";
 const  Home=()=> {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
     const [isCircleVisible, setIsCircleVisible] = useState(true);
@@ -34,6 +35,7 @@ const  Home=()=> {
            <AboutMe  /> 
           <WhereIHaveWorked />
            <SomeThingIveBuilt /> 
+           <Projects />
            <GetInTouch /> 
             <Footer githubUrl={"https://github.com/umeshkaushik-21122000"} hideSocialsInDesktop={true}   />
       {isCircleVisible && 
