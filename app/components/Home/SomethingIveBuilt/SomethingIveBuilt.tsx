@@ -104,6 +104,23 @@ const projectData = [
     imgSrc: "/img/project2.png",
     isRight: false, 
   },
+  {
+    heading: "Design and Integration of Reward System for affiliate",
+    title: "Uniqode",
+    details: (
+      <p className="text-gray-300 md:text-gray-400">
+        I designed and integrated a  {" "}
+        <span className="text-red-700"> reward system for an affiliate partner </span> for Uniqode, a
+        using PartnerStack, which improved affiliate engagement and streamlined reward processing.
+        I developed a  {" "}
+        <span className="text-red-700"> reward cancellation</span>. 
+        flow to handle refund requests within a 14-day policy period, ensuring efficient processing and adherence to refund policies.
+      </p>
+    ),
+    links: ["https://www.uniqode.com/affiliate"],
+    imgSrc: "/img/partnerstack.png",
+    isRight: true,
+  },
 ];
 
 type ProjectCardProps = {

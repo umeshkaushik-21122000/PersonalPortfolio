@@ -8,11 +8,11 @@ const Projects = () => {
     //project section
     // heading
     <>
-      <div className="flex flex-col items-center justify-center py-24 space-y-12">
+      <div className="flex flex-col items-center justify-center py-24 space-y-12 px-5 lg:px-0">
         <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">
           Other Noteworthy Projects
         </span>
-        <div className="grid grid-cols-8">
+        <div className="grid grid-cols-8 ">
           {arr.map(({ heading, detail, tag, link }, index) => (
             <Project
               key={index}
