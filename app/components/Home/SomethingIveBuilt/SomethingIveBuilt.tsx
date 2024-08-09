@@ -70,7 +70,7 @@ const projectData = [
     title: "Uniqode",
     details: (
       <p className="text-gray-300 md:text-gray-400">
-        I played a crucial role in developing the{" "}
+         played a crucial role in developing the{" "}
         <span className="text-red-700"> QR Code Generator </span> for Uniqode, a
         tool designed to enhance product showcase capabilities and user
         engagement. It allows users to create customized QR codes for
@@ -105,21 +105,37 @@ const projectData = [
     isRight: false, 
   },
   {
+    heading: "Implementation  in-house UI component library",
+    title: "Uniqode",
+    details: (
+      <p className="text-gray-300 md:text-gray-400">
+         played a key role in   
+        <span className="text-red-700">  designing and implementing our in-house UI component library, Ohana, </span> utilizing
+        <span className="text-red-700"> Storybook</span>. 
+        to create and showcase a range of reusable components. 
+        We establishing a robust and scalable library that enhances consistency and efficiency across our projects.{" "}
+      </p>
+    ),
+    links: ["https://marketing-design-system.web.app/?path=/story/introduction-introduction--page"],
+    imgSrc: "/img/ohana.png",
+    isRight: true,
+  },
+  {
     heading: "Design and Integration of Reward System for affiliate",
     title: "Uniqode",
     details: (
       <p className="text-gray-300 md:text-gray-400">
-        I designed and integrated a  {" "}
+         Designed and integrated a  {" "}
         <span className="text-red-700"> reward system for an affiliate partner </span> for Uniqode, a
         using PartnerStack, which improved affiliate engagement and streamlined reward processing.
-        I developed a  {" "}
+         Developed a  {" "}
         <span className="text-red-700"> reward cancellation</span>. 
         flow to handle refund requests within a 14-day policy period, ensuring efficient processing and adherence to refund policies.
       </p>
     ),
     links: ["https://www.uniqode.com/affiliate"],
     imgSrc: "/img/partnerstack.png",
-    isRight: true,
+    isRight: false,
   },
 ];
 
